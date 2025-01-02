@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Provide your feedback for the Tech Fest and help us improve future events.">
+    <title>Tech Fest Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="left">
+            <header>
+                <h1>Tech Fest Feedback Form</h1>
+            </header>
+    <main id="main-content">
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="name" aria-label="Enter your name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-group">
+                <label for="email" aria-label="Enter your email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="rating" aria-label="Select your overall rating">Overall Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Select a rating</option>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="2">2 - Poor</option>
+                    <option value="1">1 - Very Poor</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="feedback" aria-label="Share your feedback">Your Feedback:</label>
+                <textarea id="feedback" name="feedback" placeholder="Share your feedback" rows="5" required></textarea>
+            </div>
+            <div class="input-group">
+                <label for="suggestions" aria-label="Provide suggestions for improvement">Suggestions for Improvement:</label>
+                <textarea id="suggestions" name="suggestions" placeholder="Provide suggestions for improvement" rows="5"></textarea>
+            </div>
+            <div class="button-container">
+                <button type="submit">Submit Feedback</button>
+                <button type="reset">Clear Page</button>  
+            </div>
+        </form>
+    </main>
+</section>
+<section class="right">
+    <img src="download.jpg" alt="Tech Fest Image" class="event-image">
+</section>
+</div>
+</div>
+</body>
+</html>
